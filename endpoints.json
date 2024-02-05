@@ -166,5 +166,12 @@
   "method": "GET",
   "endpoint": "/api/v1/posts/patchnote?page={page}",
   "isPublic": true
+  },
+  "protocol": "HTTP",
+  "description": "patch live (jsons)",
+  "base": "cdn.eternalreturn.io",
+  "method": "GET",
+  "endpoint": "/gameDb/gamedata-{gameVersion}.zip",
+  "isPublic": true
   }
   ]
