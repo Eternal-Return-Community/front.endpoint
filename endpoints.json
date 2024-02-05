@@ -1,0 +1,162 @@
+[
+  {
+  "protocol": "HTTPS",
+  "description": "Info Lobby",
+  "base": "bser-rest-realese.io",
+  "method": "POST",
+  "endpoint": "/api/users/presence",
+  "isPublic": false
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "Change nickname / Test nickname is available",
+  "base": "bser-rest-realese.io",
+  "method": "POST",
+  "endpoint": "/api/users/nickname/dormant",
+  "isPublic": false
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "Enter in custom game",
+  "base": "bser-rest-realese.io",
+  "method": "POST",
+  "endpoint": "/api/matching/enter/custom",
+  "isPublic": false
+  },
+  {
+  "protocol": "HTTP",
+  "description": "Messages",
+  "base": "cdn.eternalreturn.io",
+  "method": "GET",
+  "endpoint": "/l10n/l10n-Korean-steam.txt",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "Proxy",
+  "base": "api-proxy.eternalreturn.io",
+  "method": "GET",
+  "endpoint": null,
+  "isPublic": false
+  },
+  {
+  "protocol": null,
+  "description": "Matchmaking, chat, status and more",
+  "base": "wss://bser-channel-release.bser.io",
+  "method": null,
+  "endpoint": null,
+  "isPublic": false
+  },
+  {
+  "protocol": "HTTP",
+  "description": "Gamedata json",
+  "base": "cdn.eternalreturn.io",
+  "method": "GET",
+  "endpoint": "/gameDb/gamedata-steam.txt",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "fetch metaType",
+  "base": "open-api.bser.io",
+  "method": "GET",
+  "endpoint": "/v1/data/{metaType}",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "fetch freeCharacters by matchingMode",
+  "base": "open-api.bser.io",
+  "method": "GET",
+  "endpoint": "/v1/freeCharacters/{matchingMode}",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "fetch l10n",
+  "base": "open-api.bser.io",
+  "method": "GET",
+  "endpoint": "/v1/l10n/{language}",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "fetch metaType 2.0 (return all jsons)",
+  "base": "open-api.bser.io",
+  "method": "GET",
+  "endpoint": "/v2/data/{metaType}",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "fetch game",
+  "base": "open-api.bser.io",
+  "method": "GET",
+  "endpoint": "/v1/games/{gameId}",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "fetch season's top rankers",
+  "base": "open-api.bser.io",
+  "method": "GET",
+  "endpoint": "​/v1​/rank​/top​/{seasonId}​/{matchingTeamMode}",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "fetch user rank",
+  "base": "open-api.bser.io",
+  "method": "GET",
+  "endpoint": "/v1/rank/{userNum}/{seasonId}/{matchingTeamMode}",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "fetch user games",
+  "base": "open-api.bser.io",
+  "method": "GET",
+  "endpoint": "/v1/user/games/{userNum}",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "fetch user by nickname",
+  "base": "open-api.bser.io",
+  "method": "GET",
+  "endpoint": "/v1/user/nickname",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "fetch user' stats",
+  "base": "open-api.bser.io",
+  "method": "GET",
+  "endpoint": "/v1/user/stats/{userNum}/{seasonId}",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "fetch recommend weaponRoutes",
+  "base": "open-api.bser.io",
+  "method": "GET",
+  "endpoint": "/v1/weaponRoutes/recommend",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "find recommend weaponRoutes by route id",
+  "base": "open-api.bser.io",
+  "method": "GET",
+  "endpoint": "/v1/weaponRoutes/recommend/{routeId}",
+  "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "Leaderboard by region",
+  "base": "er-node.dakgg.io",
+  "method": "GET",
+  "endpoint": "/api/v0/leaderboard?page={page}&seasonKey={seasonID}&serverName={region}",
+  "isPublic": true
+  }
+  ]

@@ -1,0 +1,45 @@
+* {
+  align-items: center;
+  text-align: center;
+  background-color: #878485;
+  color: white;
+  font-weight: normal;
+}
+
+.title {
+  color: #fda15e;
+  font-size: 30px;
+}
+
+.kenneth {
+  width: 200px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  color: white;
+  background-color: #af2022;
+  font-size: 12px;
+}
+
+.header-first {
+  border-radius: 10px 0 0 0;
+}
+
+.header-last {
+  border-radius: 0 10px 0 0;
+}
+
+td {
+  color: #337ab7;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+footer {
+  color: #ffdd9f
+}
