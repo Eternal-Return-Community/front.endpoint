@@ -158,5 +158,13 @@
   "method": "GET",
   "endpoint": "/api/v0/leaderboard?page={page}&seasonKey={seasonID}&serverName={region}",
   "isPublic": true
+  },
+  {
+  "protocol": "HTTPS",
+  "description": "Posts from website. patchnote, event, esports and news",
+  "base": "playeternalreturn.com",
+  "method": "GET",
+  "endpoint": "/api/v1/posts/patchnote?page={page}",
+  "isPublic": true
   }
   ]
