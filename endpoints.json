@@ -174,5 +174,13 @@
   "method": "GET",
   "endpoint": "/gameDb/gamedata-{gameVersion}.zip",
   "isPublic": true
+  },
+{
+  "protocol": "HTTPS",
+  "description": "Coupon",
+  "base": "bser-rest-release.bser.io",
+  "method": "POST",
+  "endpoint": "/api/coupon/use",
+  "isPublic": false
   }
   ]
