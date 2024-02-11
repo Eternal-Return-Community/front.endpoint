@@ -15,21 +15,28 @@ function newOrder(id) {
     1: "method",
     2: "base",
     3: "endpoint",
-    4: "isPublic",
-    5: "description"
+    4: "query",
+    5: "isPublic",
+    6: "description"
   }[id]
 }
 
 window.onload = async () => {
   const response = await getJson();
+  const sort = response.sort((a, b) => b.isPublic - a.isPublic);
 
   for (let i = 0; i < response.length; i++) {
+
     const row = docs.content.insertRow();
     const keys = Object.keys(response[i]);
+
     for (let j = 0; j < keys.length; j++) {
+
       const cell = row.insertCell();
-      const sort = response.sort((a, b) => b.isPublic - a.isPublic);
-      cell.innerText = sort[i][newOrder(j)];
+      const obj = sort[i][newOrder(j)];
+
+      Array.isArray(obj) ? cell.innerHTML = obj.join("<br>") : cell.innerText = obj;
+
     }
   }
 }
