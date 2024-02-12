@@ -176,7 +176,11 @@
     "base": "er-node.dakgg.io",
     "method": "GET",
     "endpoint": "/api/v0/leaderboard?",
-    "query": ["page={page}", "seasonKey={seasonID}", "serverName={region}"],
+    "query": [
+      "page={page}",
+      "seasonKey={seasonID}",
+      "serverName={region}"
+    ],
     "isPublic": true
   },
   {
@@ -185,7 +189,9 @@
     "base": "playeternalreturn.com",
     "method": "GET",
     "endpoint": "/api/v1/posts/patchnote?",
-    "query": ["page={page}"],
+    "query": [
+      "page={page}"
+    ],
     "isPublic": true
   },
   {
@@ -248,7 +254,10 @@
     "base": "cdn.eternalreturn.io",
     "method": "GET",
     "endpoint": "/clubChatRelease/topics/{userId}/messages/last?",
-    "query": ["category=basic", "limit={1-100}"],
+    "query": [
+      "category=basic",
+      "limit={1-100}"
+    ],
     "isPublic": false
   },
   {
@@ -292,7 +301,25 @@
     "description": "Watch and download replay",
     "base": "bser-rest-release.bser.io",
     "method": "GET",
-    "endpoint": "api/external/findReplayGame/{gameId}/{userId}",
+    "endpoint": "/api/external/findReplayGame/{gameId}/{userId}",
+    "query": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Buy change Nickname",
+    "base": "bser-rest-release.bser.io",
+    "method": "POST",
+    "endpoint": "/api/users/purchase/changeNickname",
+    "query": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Join in practice mode or vs IA",
+    "base": "bser-rest-release.bser.io",
+    "method": "POST",
+    "endpoint": "/api/matching/enter/single",
     "query": [],
     "isPublic": false
   }
