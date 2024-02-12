@@ -322,5 +322,41 @@
     "endpoint": "/api/matching/enter/single",
     "query": [],
     "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "",
+    "base": "bser-rest-release.bser.io",
+    "method": "POST",
+    "endpoint": "/api/users/keySettings/",
+    "query": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Collection list",
+    "base": "bser-rest-release.bser.io",
+    "method": "GET",
+    "endpoint": "/api/collection/list",
+    "query": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Tiers and season info",
+    "base": "bser-rest-release.bser.io",
+    "method": "GET",
+    "endpoint": "/api/ranking/currentSeasonTiers",
+    "query": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Trait list",
+    "base": "bser-rest-release.bser.io",
+    "method": "GET",
+    "endpoint": "/api/trait/list",
+    "query": [],
+    "isPublic": false
   }
 ]
