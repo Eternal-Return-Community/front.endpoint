@@ -460,7 +460,7 @@
   },
   {
     "protocol": "HTTPS",
-    "description": "Invite friend for you room (This endpoint use other api key)",
+    "description": "Invite friend for you room (This endpoint uses other api key)",
     "method": "POST",
     "base": "api-proxy.eternalreturn.io",
     "endpoint": "/user/presence/userNum",
