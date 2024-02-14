@@ -16,8 +16,9 @@ function newOrder(id) {
     2: "base",
     3: "endpoint",
     4: "query",
-    5: "isPublic",
-    6: "description"
+    5: "types",
+    6: "isPublic",
+    7: "description"
   }[id]
 }
 

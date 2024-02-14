@@ -2,46 +2,51 @@
   {
     "protocol": "HTTPS",
     "description": "Info Lobby",
-    "base": "bser-rest-realese.io",
     "method": "POST",
+    "base": "bser-rest-realese.io",
     "endpoint": "/api/users/presence",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
-    "description": "Change nickname / Test nickname is available",
-    "base": "bser-rest-realese.io",
+    "description": "Test nickname is available",
     "method": "POST",
+    "base": "bser-rest-realese.io",
     "endpoint": "/api/users/nickname/dormant",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Enter in custom game",
-    "base": "bser-rest-realese.io",
     "method": "POST",
+    "base": "bser-rest-realese.io",
     "endpoint": "/api/matching/enter/custom",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTP",
     "description": "Messages",
-    "base": "cdn.eternalreturn.io",
     "method": "GET",
+    "base": "cdn.eternalreturn.io",
     "endpoint": "/l10n/l10n-Korean-steam.txt",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "Proxy",
-    "base": "api-proxy.eternalreturn.io",
     "method": "GET",
+    "base": "api-proxy.eternalreturn.io",
     "endpoint": null,
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
@@ -51,312 +56,663 @@
     "method": null,
     "endpoint": null,
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTP",
     "description": "Gamedata json",
-    "base": "cdn.eternalreturn.io",
     "method": "GET",
+    "base": "cdn.eternalreturn.io",
     "endpoint": "/gameDb/gamedata-steam.txt",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "fetch metaType",
-    "base": "open-api.bser.io",
     "method": "GET",
+    "base": "open-api.bser.io",
     "endpoint": "/v1/data/{metaType}",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "fetch freeCharacters by matchingMode",
-    "base": "open-api.bser.io",
     "method": "GET",
+    "base": "open-api.bser.io",
     "endpoint": "/v1/freeCharacters/{matchingMode}",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "fetch l10n",
-    "base": "open-api.bser.io",
     "method": "GET",
+    "base": "open-api.bser.io",
     "endpoint": "/v1/l10n/{language}",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "fetch metaType 2.0 (return all jsons)",
-    "base": "open-api.bser.io",
     "method": "GET",
+    "base": "open-api.bser.io",
     "endpoint": "/v2/data/{metaType}",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "fetch game",
-    "base": "open-api.bser.io",
     "method": "GET",
+    "base": "open-api.bser.io",
     "endpoint": "/v1/games/{gameId}",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "fetch season's top rankers",
-    "base": "open-api.bser.io",
     "method": "GET",
+    "base": "open-api.bser.io",
     "endpoint": "​/v1​/rank​/top​/{seasonId}​/{matchingTeamMode}",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "fetch user rank",
-    "base": "open-api.bser.io",
     "method": "GET",
+    "base": "open-api.bser.io",
     "endpoint": "/v1/rank/{userNum}/{seasonId}/{matchingTeamMode}",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "fetch user games",
-    "base": "open-api.bser.io",
     "method": "GET",
+    "base": "open-api.bser.io",
     "endpoint": "/v1/user/games/{userNum}",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "fetch user by nickname",
-    "base": "open-api.bser.io",
     "method": "GET",
+    "base": "open-api.bser.io",
     "endpoint": "/v1/user/nickname",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "fetch user' stats",
-    "base": "open-api.bser.io",
     "method": "GET",
+    "base": "open-api.bser.io",
     "endpoint": "/v1/user/stats/{userNum}/{seasonId}",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "fetch recommend weaponRoutes",
-    "base": "open-api.bser.io",
     "method": "GET",
+    "base": "open-api.bser.io",
     "endpoint": "/v1/weaponRoutes/recommend",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "find recommend weaponRoutes by route id",
-    "base": "open-api.bser.io",
     "method": "GET",
+    "base": "open-api.bser.io",
     "endpoint": "/v1/weaponRoutes/recommend/{routeId}",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "Leaderboard by region",
-    "base": "er-node.dakgg.io",
     "method": "GET",
-    "endpoint": "/api/v0/leaderboard?",
+    "base": "er-node.dakgg.io",
+    "endpoint": "/api/v0/leaderboard/?",
     "query": [
       "page={page}",
       "seasonKey={seasonID}",
       "serverName={region}"
     ],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "Posts from website. patchnote, event, esports and news",
-    "base": "playeternalreturn.com",
     "method": "GET",
-    "endpoint": "/api/v1/posts/patchnote?",
+    "base": "playeternalreturn.com",
+    "endpoint": "/api/v1/posts/patchnote/?",
     "query": [
       "page={page}"
     ],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTP",
     "description": "patch live (jsons)",
-    "base": "cdn.eternalreturn.io",
     "method": "GET",
+    "base": "cdn.eternalreturn.io",
     "endpoint": "/gameDb/gamedata-{gameVersion}.zip",
     "query": [],
+    "types": [],
     "isPublic": true
   },
   {
     "protocol": "HTTPS",
     "description": "Coupon",
-    "base": "bser-rest-release.bser.io",
     "method": "POST",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/coupon/use",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Search people (friend request)",
-    "base": "bser-rest-release.bser.io",
     "method": "POST",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/friends/search",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Add new friend",
-    "base": "bser-rest-release.bser.io",
     "method": "POST",
-    "endpoint": "/api/friends/{userId}/request",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/friends/{userCode}/request",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
-    "description": "Change token for item",
-    "base": "bser-rest-release.bser.io",
+    "description": "Reject friend invite",
     "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/friends/{userCode}/reject",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Accept friend invite",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/friends/{userCode}/accept",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Delete friend invite",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/friends/{userCode}/delete",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Token shop",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/loot/lootToken",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Cancel transaction when purchasing NP",
-    "base": "bser-rest-release.bser.io",
     "method": "POST",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/shop/iap/receipt/False",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Message History",
-    "base": "cdn.eternalreturn.io",
     "method": "GET",
-    "endpoint": "/clubChatRelease/topics/{userId}/messages/last?",
+    "base": "cdn.eternalreturn.io",
+    "endpoint": "/clubChatRelease/topics/{userId}/messages/last/?",
     "query": [
       "category=basic",
       "limit={1-100}"
     ],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Set good, emblem and others",
-    "base": "bser-rest-release.bser.io",
     "method": "POST",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/inventory/{good, emblem}/set",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Preset emotion, spray and others",
-    "base": "bser-rest-release.bser.io",
     "method": "POST",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/inventory/{emotion, spray}/setPreset",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "",
-    "base": "bser-rest-release.bser.io",
     "method": "POST",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/collection/view",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Save traits",
-    "base": "bser-rest-release.bser.io",
     "method": "POST",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/trait/save",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Watch and download replay",
-    "base": "bser-rest-release.bser.io",
     "method": "GET",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/external/findReplayGame/{gameId}/{userId}",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Buy change Nickname",
-    "base": "bser-rest-release.bser.io",
     "method": "POST",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/users/purchase/changeNickname",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Join in practice mode or vs IA",
-    "base": "bser-rest-release.bser.io",
     "method": "POST",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/matching/enter/single",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "",
-    "base": "bser-rest-release.bser.io",
     "method": "POST",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/users/keySettings/",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Collection list",
-    "base": "bser-rest-release.bser.io",
     "method": "GET",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/collection/list",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Tiers and season info",
-    "base": "bser-rest-release.bser.io",
     "method": "GET",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/ranking/currentSeasonTiers",
     "query": [],
+    "types": [],
     "isPublic": false
   },
   {
     "protocol": "HTTPS",
     "description": "Trait list",
-    "base": "bser-rest-release.bser.io",
     "method": "GET",
+    "base": "bser-rest-release.bser.io",
     "endpoint": "/api/trait/list",
     "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Recommend premade",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/matching/recommend/premadeTeamUsers/{lobbyId}",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Authenticate",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/users/authenticate",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Edit friend description",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/friends/{userCode}/memo",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Invite friend for you room (This endpoint use other api key)",
+    "method": "POST",
+    "base": "api-proxy.eternalreturn.io",
+    "endpoint": "/user/presence/userNum",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "User profile",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/battle/overview/other/{userNum}/{seasonId}",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Twitch drops",
+    "method": "POST",
+    "base": "twitch.playeternalreturn.com",
+    "endpoint": "/drops",
+    "query": [],
+    "types": [],
+    "isPublic": true
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Change daily mission",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/mission/changeMission",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Check League from user",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/ranking/userRankings/other/{userNum}/?",
+    "query": [
+      "matchingTeamMode={mode}"
+    ],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Get userCode from user and emblem (icon)",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/users/other/simple/{userNum}",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Join Normal, Cobalt or Ranked",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/matching/enter",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "League from your account",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/ranking/userRankings/?",
+    "query": [
+      "matchingTeamMode={mode}"
+    ],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/weaponRoute/?",
+    "query": [
+      "characterCode={characterId}",
+      "supportLanguage={language}"
+    ],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Search build",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/weaponRoute/recommends/?",
+    "query": [
+      "sortType=LIKE",
+      "characterCode={characterId}",
+      "supportLanguage={language}",
+      "weaponType={weaponName}",
+      "pageIndex={id}",
+      "recentlyVersion={boolean}",
+      "supportLanguage={language}",
+      "id={searchById}",
+      "title={searchByTitle}"
+    ],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Get recommend build",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/weaponRoute/getRecommend",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Match History",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/battle/games/{userNum}",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Shop by Category",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/shop/?",
+    "query": [
+      "shopType={type}"
+    ],
+    "types": [
+      "NP",
+      "LOOT",
+      "SKIN",
+      "CHARACTER",
+      "SEASON_PASS",
+      "PACKAGE",
+      "SEQ",
+      "EMOTION",
+      "ACCOUNT",
+      "EP",
+      "BATTLE_PASS"
+    ],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Shop List",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/shop/list?",
+    "query": [
+      "shopTypes={type}"
+    ],
+    "types": [
+      "NP",
+      "LOOT",
+      "SKIN",
+      "CHARACTER",
+      "SEASON_PASS",
+      "PACKAGE",
+      "SEQ",
+      "EMOTION",
+      "ACCOUNT",
+      "EP",
+      "BATTLE_PASS"
+    ],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Shop Recommended and Banners",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/shop/home/?",
+    "query": [
+      "supportLanguage={id (default = 2}"
+    ],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Season pass banner",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/seasonPass",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Season pass missions",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/battlePass/userMissions/?",
+    "query": ["battlePassId={passId}"],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Receive Mission reward",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/battlePass/receiveMissionReward",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "getRecommendById",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/weaponRoute/getRecommendById",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Box",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/loot/box",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Forging - Blueprint",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/loot/assemble",
+    "query": [],
+    "types": [],
     "isPublic": false
   }
 ]
