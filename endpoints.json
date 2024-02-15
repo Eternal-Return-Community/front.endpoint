@@ -615,7 +615,8 @@
       "EMOTION",
       "ACCOUNT",
       "EP",
-      "BATTLE_PASS"
+      "BATTLE_PASS",
+      "WEAPON_ROUTE"
     ],
     "isPublic": false
   },
@@ -639,7 +640,8 @@
       "EMOTION",
       "ACCOUNT",
       "EP",
-      "BATTLE_PASS"
+      "BATTLE_PASS",
+      "WEAPON_ROUTE"
     ],
     "isPublic": false
   },
@@ -671,7 +673,9 @@
     "method": "GET",
     "base": "bser-rest-release.bser.io",
     "endpoint": "/api/battlePass/userMissions/?",
-    "query": ["battlePassId={passId}"],
+    "query": [
+      "battlePassId={passId}"
+    ],
     "types": [],
     "isPublic": false
   },
@@ -741,8 +745,16 @@
     "method": "POST",
     "base": "bser-rest-release.bser.io",
     "endpoint": "/api/achievement/userAchievements/?",
-    "query": ["achievementCategory={type}"],
-    "types": ["SURVIVAL", "WEAPON", "AREA", "HUNT_COLLECT", "SPECIAL"],
+    "query": [
+      "achievementCategory={type}"
+    ],
+    "types": [
+      "SURVIVAL",
+      "WEAPON",
+      "AREA",
+      "HUNT_COLLECT",
+      "SPECIAL"
+    ],
     "isPublic": false
   },
   {
@@ -752,6 +764,16 @@
     "base": "bser-rest-release.bser.io",
     "endpoint": "/api/achievement/receivedReward",
     "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Build description",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/weaponRoute/recommendDesc/?",
+    "query": ["id={routeId}"],
     "types": [],
     "isPublic": false
   }
