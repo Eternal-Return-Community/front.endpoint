@@ -734,5 +734,25 @@
     "query": [],
     "types": [],
     "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Achievements by Category",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/achievement/userAchievements/?",
+    "query": ["achievementCategory={type}"],
+    "types": ["SURVIVAL", "WEAPON", "AREA", "HUNT_COLLECT", "SPECIAL"],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "receivedReward",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/achievement/receivedReward",
+    "query": [],
+    "types": [],
+    "isPublic": false
   }
 ]
