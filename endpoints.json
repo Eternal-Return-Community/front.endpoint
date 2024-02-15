@@ -776,5 +776,15 @@
     "query": ["id={routeId}"],
     "types": [],
     "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Open box",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/loot/box/open/select",
+    "query": [],
+    "types": [],
+    "isPublic": false
   }
 ]
