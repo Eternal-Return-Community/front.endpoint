@@ -786,5 +786,15 @@
     "query": [],
     "types": [],
     "isPublic": false
-  }
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Shop banner",
+    "method": "GET",
+    "base": "cdn.eternalreturn.io",
+    "endpoint": "/shop/blsr-{bannerId}-{banner}",
+    "query": [],
+    "types": [],
+    "isPublic": true
+  },
 ]
