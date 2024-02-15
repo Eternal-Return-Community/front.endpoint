@@ -714,5 +714,25 @@
     "query": [],
     "types": [],
     "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Shoy - Buy item",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/shop/buy",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Receive all mission (Battlepass)",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/battlePass/receiveAllMissionReward",
+    "query": [],
+    "types": [],
+    "isPublic": false
   }
 ]
