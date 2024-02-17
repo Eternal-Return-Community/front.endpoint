@@ -986,5 +986,15 @@
     "query": [],
     "types": [],
     "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Report use",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/users/report",
+    "query": [],
+    "types": [],
+    "isPublic": false
   }
 ]
