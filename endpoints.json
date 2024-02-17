@@ -996,5 +996,15 @@
     "query": [],
     "types": [],
     "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Gameinfo",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/battle/game/{gameId}",
+    "query": [],
+    "types": [],
+    "isPublic": false
   }
 ]
