@@ -659,7 +659,7 @@
   },
   {
     "protocol": "HTTPS",
-    "description": "Season pass banner",
+    "description": "Season pass banner and info",
     "method": "GET",
     "base": "bser-rest-release.bser.io",
     "endpoint": "/api/seasonPass",
@@ -779,7 +779,7 @@
   },
   {
     "protocol": "HTTPS",
-    "description": "Open box",
+    "description": "Select box",
     "method": "POST",
     "base": "bser-rest-release.bser.io",
     "endpoint": "/api/loot/box/open/select",
@@ -813,6 +813,146 @@
     "method": "POST",
     "base": "bser-rest-release.bser.io",
     "endpoint": "/api/attendance/receivedAllReward",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Event Banner",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/notice/login?",
+    "query": ["supportLanguage={languageId}"],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Login info",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/lobby/enter/?",
+    "query": ["supportLanguage={languageId}"],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Get voice JWT",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/voice/login",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "userBattlePass information",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/battlePass/userBattlePass",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "All game content",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/inventory/lobby",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "favorite characters",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/inventory/character/favorite",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "purchaseHistory",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/shop/purchaseHistory",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "gift Mail",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/giftMail/?",
+    "query": ["supportLanguage={languageId}"],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Friend list and request list",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/friends",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "User achievement",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/achievement",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "User daily missions",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/mission/userMissions",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Login Event",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/attendance/?",
+    "query": ["attendType={type}"],
+    "types": ["SEASON", "NRU"],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Open box",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/loot/box/open",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Create build",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/weaponRoute/add",
     "query": [],
     "types": [],
     "isPublic": false
