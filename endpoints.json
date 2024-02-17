@@ -796,5 +796,15 @@
     "query": [],
     "types": [],
     "isPublic": true
-  }
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Chat - Send message",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/chat/send",
+    "query": [],
+    "types": [],
+    "isPublic": true
+  },
 ]
