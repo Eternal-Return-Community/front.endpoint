@@ -966,5 +966,25 @@
     "query": [],
     "types": [],
     "isPublic": true
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Set character",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/battleInfo/single/v2?",
+    "query": ["userNum={userNum}", "characterCode+{characterId}"],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Set build",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/weaponRoute/addRecommendWeaponRouteCount",
+    "query": [],
+    "types": [],
+    "isPublic": false
   }
 ]
