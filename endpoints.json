@@ -805,6 +805,16 @@
     "endpoint": "/api/chat/send",
     "query": [],
     "types": [],
-    "isPublic": true
+    "isPublic": false
   },
+  {
+    "protocol": "HTTPS",
+    "description": "Login Event - Receive Reward",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/attendance/receivedAllReward",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  }
 ]
