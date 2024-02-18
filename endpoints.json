@@ -1006,5 +1006,15 @@
     "query": [],
     "types": [],
     "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "New account, add nickname.",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/users/nickname",
+    "query": [],
+    "types": [],
+    "isPublic": false
   }
 ]
