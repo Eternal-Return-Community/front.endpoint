@@ -1041,7 +1041,7 @@
   },
   {
     "protocol": "HTTPS",
-    "description": "Twitch drop",
+    "description": "Twitch drop (In-Game)",
     "method": "GET",
     "base": "bser-rest-release.bser.io",
     "endpoint": "/api/twitch",
