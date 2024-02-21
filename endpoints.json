@@ -1016,5 +1016,15 @@
     "query": [],
     "types": [],
     "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "disintegrate loot",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/loot/assemble/disintegrate",
+    "query": [],
+    "types": [],
+    "isPublic": false
   }
 ]
