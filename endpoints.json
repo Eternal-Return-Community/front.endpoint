@@ -616,7 +616,8 @@
       "ACCOUNT",
       "EP",
       "BATTLE_PASS",
-      "WEAPON_ROUTE"
+      "WEAPON_ROUTE",
+      "DLC"
     ],
     "isPublic": false
   },
@@ -641,7 +642,8 @@
       "ACCOUNT",
       "EP",
       "BATTLE_PASS",
-      "WEAPON_ROUTE"
+      "WEAPON_ROUTE",
+      "DLC"
     ],
     "isPublic": false
   },
@@ -1033,6 +1035,16 @@
     "method": "GET",
     "base": "bser-rest-release.bser.io",
     "endpoint": "/api/matching/checkModes/premadeTeam",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Twitch drop",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/twitch",
     "query": [],
     "types": [],
     "isPublic": false
