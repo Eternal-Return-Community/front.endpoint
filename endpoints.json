@@ -1026,5 +1026,15 @@
     "query": [],
     "types": [],
     "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "Check current lobby status",
+    "method": "GET",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/matching/checkModes/premadeTeam",
+    "query": [],
+    "types": [],
+    "isPublic": false
   }
 ]
