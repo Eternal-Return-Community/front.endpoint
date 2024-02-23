@@ -834,8 +834,8 @@
     "description": "Login info",
     "method": "GET",
     "base": "bser-rest-release.bser.io",
-    "endpoint": "/api/lobby/enter/?",
-    "query": ["supportLanguage={languageId}"],
+    "endpoint": "/api/lobby/enter",
+    "query": [],
     "types": [],
     "isPublic": false
   },
@@ -975,7 +975,7 @@
     "method": "GET",
     "base": "bser-rest-release.bser.io",
     "endpoint": "/api/battleInfo/single/v2?",
-    "query": ["userNum={userNum}", "characterCode+{characterId}"],
+    "query": ["userNum={userNum}", "characterCode={characterId}"],
     "types": [],
     "isPublic": false
   },
