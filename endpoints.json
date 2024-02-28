@@ -1048,5 +1048,25 @@
     "query": [],
     "types": [],
     "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/external/renewalSession",
+    "query": [],
+    "types": [],
+    "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "",
+    "method": "POST",
+    "base": "bser-rest-release.bser.io",
+    "endpoint": "/api/users/tutorial/result",
+    "query": [],
+    "types": [],
+    "isPublic": false
   }
 ]
