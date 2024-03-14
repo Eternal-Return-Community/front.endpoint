@@ -1068,5 +1068,15 @@
     "query": [],
     "types": [],
     "isPublic": false
+  },
+  {
+    "protocol": "HTTPS",
+    "description": "",
+    "method": "GET",
+    "base": "api-proxy.eternalreturn.io",
+    "endpoint": "/init/version/STEAM/{gameVersion}",
+    "query": [],
+    "types": [],
+    "isPublic": true
   }
 ]
